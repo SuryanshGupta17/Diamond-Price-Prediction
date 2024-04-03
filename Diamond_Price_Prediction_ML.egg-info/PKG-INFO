@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Diamond-Price-Prediction-ML
+Version: 0.0.1
+Summary: An End-To-End ML Pipeline project about Diamond-Price-Prediction
+Author: Suryansh Gupta
+Author-email: suryanshgupta1705@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: seaborn
