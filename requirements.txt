@@ -3,5 +3,6 @@ numpy
 seaborn
 flask 
 typing 
+datetime
 scikit-learn
 -e .
