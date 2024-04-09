@@ -10,4 +10,5 @@ Requires-Dist: seaborn
 Requires-Dist: flask
 Requires-Dist: typing
 Requires-Dist: datetime
+Requires-Dist: pickles
 Requires-Dist: scikit-learn

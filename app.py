@@ -7,12 +7,12 @@ app = application
 
 @app.route('/')
 def home_page():
-    return render_template('index.html')
+    return render_template('index.htm')
 @app.route('/predict', methods = ['POST', "GET"])
 
 def predict_datapoint(): 
     if request.method == "GET": 
-        return render_template("form.html")
+        return render_template("form.htm")
     else: 
         data = CustomData(
             carat = float(request.form.get('carat')),
@@ -31,7 +31,7 @@ def predict_datapoint():
 
     results = round(pred[0],2)
 
-    return render_template("results.html", final_result = results)
+    return render_template("results.htm", final_result = results)
 
 if __name__ == "__main__": 
     app.run(host = "0.0.0.0", debug= True)

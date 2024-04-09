@@ -4,6 +4,6 @@ seaborn
 flask 
 typing 
 datetime
-pickle
+pickles
 scikit-learn
 -e .
